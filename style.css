@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #111;
+}
+
+section{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h2{
+    position: relative;
+    color: #fff;
+    font-size: 12em;
+}
+
+section img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+.a{
+    top: 500px;
+    left: 50px;
+}
+
+.b{
+    
+    left: 900px;
+}
+.c{
+    left: 1200px;
+    top: 300px;
+}
+.d{
+    top:200px;
+}
+.e{
+    top: 700px;
+}
+.f{
+    left:1200px;
+    top:150px;
+}
+.g{
+    top: 700px;
+  left:500px;
+}
+.h{
+    top: 600px;
+    left:1400px;
+}
+.i{
+    top: 100px;
+    left:1600px;
+}
+.j{
+    
+    left:250px;
+}
